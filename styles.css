@@ -58,7 +58,7 @@ p{margin:0;}
 .section-head h2{font-size:clamp(23px,3.2vw,28px);}
 .section-head p{margin-top:9px;color:var(--ink-soft);font-size:14.5px;}
 
-.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,480px));gap:18px;justify-content:center;}
 .game-card{
   display:flex;align-items:center;gap:20px;background:var(--white);
   border:2px solid var(--ink);border-radius:18px;padding:24px;
@@ -76,10 +76,6 @@ p{margin:0;}
   text-transform:uppercase;letter-spacing:.06em;}
 .game-card .cta svg{width:13px;height:13px;transition:transform .15s ease;}
 .game-card:hover .cta svg{transform:translateX(3px);}
-
-.game-card.soon{opacity:.6;border:2px dashed var(--line-strong);box-shadow:none;pointer-events:none;}
-.game-card.soon .thumb{background:var(--mint);display:flex;align-items:center;justify-content:center;
-  font-family:var(--f-mono);font-size:20px;color:var(--ink-soft);border:2px dashed var(--line-strong);}
 
 /* ABOUT */
 .about{border:1.5px solid var(--line);border-radius:20px;padding:36px;
